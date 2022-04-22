@@ -90,6 +90,22 @@
 }
 
 
+/* TABLET SCREENS */ 
+@media (min-width: 670px) and (max-width: 959px){
+    /* upcoming events section */
+    .upcoming-events .events {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .upcoming-events .events .event{
+        width: 49%;
+    }
+    .upcoming-events .events .event:first-child img {
+        float: right;
+        margin-left: .5em;
+    }
+}
+
 /* LARGE SCREENS */
 @media screen and (min-width: 960px){
     /* adopt a cat section */
