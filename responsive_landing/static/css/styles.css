@@ -1,0 +1,75 @@
+/* this file is for working around with the colors  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: #f28482;
+}
+
+.head {
+    background-image: url("https://cdn.pixabay.com/photo/2018/03/27/17/26/cat-3266675_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-start;
+    align-content: flex-start;
+    height: 100vh;
+    color: black;
+}
+
+.head .section-heading {
+    color: white;
+    font-size: 100px;
+    margin-bottom: auto;
+}
+
+.head p {
+    margin-top: auto;
+    display: block;
+    margin-bottom: 0;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.body {
+    border: #000;
+    padding: 1em;
+    background-color: #f5cac3;
+}
+
+.about {
+    border: none;
+    background-color: #f28482;
+    margin-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 1em 0;
+}
+
+.section-heading {
+    text-decoration: underline;
+}
+
+img {
+    border: 2px solid #f4a261;
+    border-radius: 1em;
+}
+
+@media screen and (max-width: 688px) {
+    .head {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .head .section-heading {
+        font-size: 50px;
+        margin-bottom: auto;
+    }
+    .head p {
+        margin-top: auto;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+}
