@@ -13,5 +13,7 @@ Add the appropriate container elements you might need to create the responsive l
 
 For smaller screens keep the default layout with all the text and images below each other. 
 
-No other styling is required.
+**Focus on layout and responsiveness**, if you want to add more styling. You can do that after you are done with all the other tasks.
+
+
 

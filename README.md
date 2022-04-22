@@ -9,6 +9,7 @@ Help them:
 * and by creating a function to help them to pay [weekly wages](./weekly_wages).
 
 Clone and fork this repo and do the above tasks.
+eg `git clone <github_url_here>`
 
 Please be sure to commit to git locally regularly. Only push to GitHub after **14h00** at the earliest.
 

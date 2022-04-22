@@ -15,6 +15,6 @@ If an invalid user band is returned this function should return 0.
 Calling the function looks like this: `weeklyWage('A', '0,0,3,4,4,4,6');`
 This is an invalid call to the function as there are not 7 days in the 2nd parameter: `weeklyWage('D', '0,0,3,4,4');`
 
-Look at the code in the [unit test](weekly_wages.tests.js) to see what is required.
+Look at the code in the [unit test](https://github.com/codex-academy/KamvasCattery/blob/gh-pages/weekly_wages/test/weekly_wages.tests.js) to see what is required.
 
 Write the `weeklyWage` function to make the tests pass.
