@@ -1,0 +1,116 @@
+.section-heading {
+    text-align: center;
+}
+
+/* MOBILE FIRST */
+/* HEAD SECTION */
+.head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BODY SECTION */
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* the adopt a cat section */
+.body .adoptme {
+    display: flex;
+    flex-direction: column;
+}
+
+.body .adoptme .cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.body .adoptme .cards .card img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    float: left;
+    margin-right: .5em;
+    margin-bottom: .1em;
+}
+
+.body .adoptme .cards p {
+    text-align: justify;
+}
+
+/* upcoming events */
+.upcoming-events {
+    display: flex;
+    flex-direction: column;
+}
+
+.upcoming-events .events {
+    display: flex;
+    flex-direction: column;
+}
+
+.upcoming-events .events .event div img {
+    width: 200px;
+    height: 200px;
+}
+
+/* first event */
+.upcoming-events .events .event:first-child img {
+    float: left;
+    margin-right: .5em;
+}
+.upcoming-events .events .event:first-child p {
+    text-align: justify;
+}
+
+/* second event */
+.upcoming-events .events .event:nth-child(2) img{
+    float: right;
+    margin-left: .5em;
+}
+.upcoming-events .events .event:nth-child(2) p{
+    text-align: justify;
+}
+
+/* ABOUT SECTION */
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+    margin-top: 1em;
+}
+
+.about div {
+    text-align: center;
+}
+
+
+/* LARGE SCREENS */
+@media screen and (min-width: 960px){
+    /* adopt a cat section */
+    .body .adoptme .cards {
+        flex-direction: row;
+        justify-content: space-between;   
+    }
+    .body .adoptme .cards .card {
+        width: 32%;
+    }
+
+    /* upcoming events section */
+    .upcoming-events .events {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .upcoming-events .events .event{
+        width: 49.6%;
+    }
+    .upcoming-events .events .event:first-child img {
+        float: right;
+        margin-left: .5em;
+    }
+}
